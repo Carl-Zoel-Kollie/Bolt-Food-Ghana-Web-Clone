@@ -1,0 +1,61 @@
+*{
+    margin:0;
+}
+body{
+    background:#ccc;
+}
+.makepayment{
+    background:white;
+    width:40%;
+    height:100%;
+    margin-left:32%;
+    top:0;
+}
+.makepayment h1{
+    top:0;
+    margin-left:3%;
+    font-size:2.5em;
+ }
+ .myfooter{
+    background:rgb(59, 216, 117);
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    position:fixed;
+    height:10%;
+}
+.myfooter h1{
+    color:white;
+    text-align:center;
+    font-size:3em;
+}
+.thisinput{
+    width: 87%;
+    padding: 10px;
+    outline: none;
+    background:rgb(245, 240, 240);
+    border-radius:12px;
+    height:50px;
+    margin-top:5%;
+    border:1px solid rgb(245, 240, 240);
+}
+.sectionthree{
+    background-image:url("../public/boltimg.jpg");
+    height: 32vh;
+    width:100%;
+    background-repeat: repeat-x;
+}
+.mypayform{
+    margin-top:-12%;
+}
+.makepayment button{
+    border-radius:9px;
+    background:rgb(59, 216, 117);
+    border:1px solid rgb(59, 216, 117);
+    width:70px;
+    margin-left:45%;
+    height:30px;
+    margin-top:5%;
+    margin-bottom:3%;
+}

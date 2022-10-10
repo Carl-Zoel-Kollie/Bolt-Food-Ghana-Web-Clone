@@ -1,0 +1,94 @@
+*{
+    margin:0;
+}
+body{
+    background:#ccc;
+}
+.mycontainer{
+    background:white;
+    width:40%;
+    height:100%;
+    margin-left:32%;
+    top:0;
+}
+
+.mycontainer> .searchInput_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.mycontainer > .searchInput_Container input{
+    width: 87%;
+    padding: 10px;
+    outline: none;
+    background:rgb(245, 240, 240);
+    border-radius:12px;
+    height:50px;
+    margin-top:5%;
+    border:1px solid rgb(245, 240, 240);
+}
+.mycontainer h1{
+   top:0;
+   margin-left:3%;
+   font-size:2.5em;
+}
+.mycontainer h2{
+    
+    margin-left:3%;
+    
+ }
+.mycontainer .template_Container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+    justify-content: center;
+   
+}
+.mycontainer .template_Container .template{
+    background-color: white;
+ width:270px;
+ margin-top:4%;
+ margin-left:6%;
+    
+}
+.mycontainer .template_Container .template img{
+    height: 150px;
+    width:100%;
+    border-radius:12px;
+    
+}
+.template h4{
+    margin-left:78%;
+    margin-top:-16%;
+}
+.template button{
+    background:rgb(34 197 94);
+    border:1px solid rgb(34 197 94);
+    width:60px;
+    height:30px;
+    margin-left:35%;
+    border-radius:15px;
+    color:white;
+}
+.template button:hover{
+    background:rgb(46, 255, 123);
+    border:1px solid rgb(39, 223, 107);
+}
+.template h3{
+ text-align: center;
+}
+.myfooter{
+    background:rgb(59, 216, 117);
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    position:fixed;
+    height:10%;
+}
+.myfooter h1{
+    color:white;
+    text-align:center;
+    font-size:3em;
+}
