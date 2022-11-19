@@ -43,7 +43,7 @@ const payWithPaystack=(e)=>{
         <div className="makepayment">
             <h1><span style={{color:"rgb(34 197 94)"}}>Bọlt</span> <span style={{color:"#111"}}>Food</span></h1>
           <section className="sectionthree">
-            hi</section>
+            </section>
           <div className="mypayform">
            
              <form id="paymentForm" >

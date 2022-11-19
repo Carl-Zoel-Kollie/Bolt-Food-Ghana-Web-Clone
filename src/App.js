@@ -46,6 +46,13 @@ function App() {
       <div className="myfooter">
           <h1>Order Now!</h1>
         </div>
+        <div className="paymobile">
+          <h1>This Bolt Food Clone Web App can only be viewed on a laptop. Reload the link on your laptop to interact with the app. 
+            Follow the social media pages below to get notified when the mobile version of this clone is deployed.
+           <br></br>
+            <a  href="https://linktr.ee/Carl_Zoel_Kollie"><h6>Link to all CZK Code social Media pages</h6></a>
+          </h1>
+        </div>
     </>
   )
 }
