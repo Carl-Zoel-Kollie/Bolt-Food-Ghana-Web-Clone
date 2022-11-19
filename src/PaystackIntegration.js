@@ -88,9 +88,9 @@ const payWithPaystack=(e)=>{
   </div>
 </form>
         </div>
-        <div className="myfooter">
+        {/* <div className="myfooter">
           <h1>Order Now!</h1>
-        </div>
+        </div> */}
         </div>
         
 
